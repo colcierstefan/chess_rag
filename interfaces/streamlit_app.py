@@ -304,13 +304,3 @@ class ChessRAGUI:
         except Exception as e:
             st.error(f"An error occurred during initialization: {str(e)}")
             st.error("Please refresh the page and try again.")
-
-
-def main():
-    """Main application entry point."""
-    ui = ChessRAGUI()
-    ui.run()
-
-
-if __name__ == "__main__":
-    main()
