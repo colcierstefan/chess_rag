@@ -1,0 +1,6 @@
+python==3.12
+chromadb==0.5.18
+openai==1.54.4
+llama-index==0.10.50
+python-dotenv==1.0.1
+streamlit==1.40.1
